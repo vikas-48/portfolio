@@ -4,11 +4,10 @@ export const socialsData = {
     linkedIn: 'https://www.linkedin.com/in/vikasmada',
     instagram: 'https://www.instagram.com/vikas.mada_',
     codepen: 'https://codepen.io/',
-    twitter: 'https://twitter.com/',
     reddit: 'https://www.reddit.com/user/',
     blogger: 'https://www.vikasmada.blogspot.com/',
     medium: 'https://medium.com/@',
     stackOverflow: 'https://stackoverflow.com/users/',
     gitlab: 'https://gitlab.com/',
-    youtube: 'https://youtube.com/'
+    kaggle: 'https://www.kaggle.com/vikasmada0207',
 }

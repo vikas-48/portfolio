@@ -9,11 +9,10 @@ import { headerData } from '../../data/headerData';
 import { socialsData } from '../../data/socialsData';
 
 import {
-    FaTwitter,
     FaLinkedin,
     FaGithub,
-    FaYoutube,
     FaBlogger,
+    FaKaggle,
 } from 'react-icons/fa';
 
 function Landing() {
@@ -101,29 +100,16 @@ function Landing() {
                                 />
                             </a>
                         )}
-                        {socialsData.twitter && (
+                        {socialsData.kaggle && (
                             <a
-                                href={socialsData.twitter}
+                                href={socialsData.kaggle}
                                 target='_blank'
                                 rel='noreferrer'
                             >
-                                <FaTwitter
+                                <FaKaggle
                                     className='landing--social'
                                     style={{ color: theme.secondary }}
-                                    aria-label='Twitter'
-                                />
-                            </a>
-                        )}
-                        {socialsData.youtube && (
-                            <a
-                                href={socialsData.youtube}
-                                target='_blank'
-                                rel='noreferrer'
-                            >
-                                <FaYoutube
-                                    className='landing--social'
-                                    style={{ color: theme.secondary }}
-                                    aria-label='YouTube'
+                                    aria-label='Kaggle'
                                 />
                             </a>
                         )}
@@ -167,7 +153,6 @@ function Landing() {
                             {headerData.resumePdf && (
                                 <a
                                     href={headerData.resumePdf}
-                                    download='resume'
                                     target='_blank'
                                     rel='noreferrer'
                                 >

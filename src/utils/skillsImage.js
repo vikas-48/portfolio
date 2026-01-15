@@ -227,6 +227,12 @@ export const skillsImage = (skill) => {
             return wolframalpha;
         case 'canva':
             return canva;
+        case 'node js':
+            return 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg';
+        case 'express js':
+            return 'https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png';
+        case 'tableau':
+            return 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png';
         default:
             break;
     }

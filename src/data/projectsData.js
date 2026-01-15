@@ -12,17 +12,17 @@ export const projectsData = [
     {
         id: 1,
         projectName: 'SQL DatawareHouse Proect',
-        projectDesc: 'https://github.com/vikas-48/SQL-DWH-Project',
-        tags: ['React', 'CSS', 'Material Ui'],
+        projectDesc: 'SQL Data Warehouse – ETL-driven analytical system built for structured reporting.',
+        tags: ['SQL'],
         code: 'https://github.com/vikas-48/SQL-DWH-Project',
-        demo: 'vhttps://github.com/vikas-48/SQL-DWH-Project',
+        demo: 'https://github.com/vikas-48/SQL-DWH-Project',
         image: one
     },
     {
         id: 2,
         projectName: 'TownTalk',
-        projectDesc: 'This project is a railway tracking system that allows users to obtain relevant information about train timing.',
-        tags: ['Django', 'Tailwind CSS'],
+        projectDesc: 'A real-time community app using Flutter and Firebase with location-based content filtering.',
+        tags: ['Flutter', 'Firebase'],
         code: 'https://github.com/vikas-48/TownTalk',
         demo: 'https://github.com/vikas-48/TownTalk',
         image: two
@@ -30,8 +30,8 @@ export const projectsData = [
     {
         id: 3,
         projectName: 'CivicLink',
-        projectDesc: 'Weather forecast systems and applications predict weather conditions based on multiple parameters.',
-        tags: ['Django', 'CSS', 'Material Ui'],
+        projectDesc: 'AI-powered civic issue reporting and resolution system.',
+        tags: ['React JS', 'Node JS', 'MongoDB'],
         code: 'https://github.com/vikas-48/CivicLink',
         demo: 'https://github.com/vikas-48/CivicLink',
         image: three
@@ -39,26 +39,26 @@ export const projectsData = [
     {
         id: 4,
         projectName: 'Virtual TA - TDS',
-        projectDesc: 'This project involves the development of an Android application for viewing and managing patient data.',
-        tags: ['Flutter', 'Firebase'],
+        projectDesc: 'Virtual Teaching Assistant – Tools in Data Science.',
+        tags: ['NLP', 'REST'],
         code: 'https://github.com/vikas-48/TDS_VT',
         demo: 'https://github.com/vikas-48/TDS_VT',
         image: four
     },
     {
         id: 5,
-        projectName: 'Military Data Visualisation', 
-        projectDesc: 'A Simple E-commerce application',
-        tags: ['React Native', 'Firebase'],
-        code: '',
-        demo: '',
+        projectName: 'Military Data Visualisation',
+        projectDesc: 'Infosys Internship Project',
+        tags: ['Python', 'Tableau'],
+        code: 'Working on it',
+        demo: 'Working on it',
         image: five
     },
     {
         id: 6,
         projectName: 'AI CLI Assistant',
-        projectDesc: 'Uber clone',
-        tags: ['Flutter'],
+        projectDesc: 'CLI Tool to use powershell commands in English',
+        tags: ['Python', 'NLP'],
         code: 'https://github.com/vikas-48/ai_cli_assistant',
         demo: 'https://github.com/vikas-48/ai_cli_assistant',
         image: six
@@ -66,8 +66,8 @@ export const projectsData = [
     {
         id: 7,
         projectName: 'Code and Ladders Game',
-        projectDesc: 'A simple stock market API app',
-        tags: ['React', 'Redux', 'Bootstrap'],
+        projectDesc: 'Code & Ladders – Gamified coding learning game.',
+        tags: ['Flutter'],
         code: 'https://github.com/vikas-48/code-and-ladder',
         demo: 'https://github.com/vikas-48/code-and-ladder',
         image: seven
@@ -75,11 +75,11 @@ export const projectsData = [
     {
         id: 8,
         projectName: 'Second Brain',
-        projectDesc: 'The carpooling system merges multiple people in a car which leads to meet new people, reduces pollution',
-        tags: ['Flutter', 'React'],
+        projectDesc: 'RAG-based system for intelligent retrieval and generation from personal knowledge.',
+        tags: ['RAG', 'Semantic Search'],
         code: 'https://github.com/vikas-48/SecondBrain',
         demo: 'https://github.com/vikas-48/SecondBrain',
-        image: eight    
+        image: eight
     },
 ]
 
