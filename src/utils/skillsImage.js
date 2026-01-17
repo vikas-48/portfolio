@@ -74,6 +74,11 @@ import unity from '../assets/svg/skills/unity.svg'
 import wolframalpha from '../assets/svg/skills/wolframalpha.svg'
 
 import canva from '../assets/svg/skills/canva.svg'
+import nodeJS from '../assets/svg/skills/node.svg'
+import express from '../assets/svg/skills/express.svg'
+import tableau from '../assets/svg/skills/tableau.svg'
+import pyspark from '../assets/svg/skills/pyspark.svg'
+import databricks from '../assets/svg/skills/databricks.svg'
 
 
 export const skillsImage = (skill) => {
@@ -228,11 +233,15 @@ export const skillsImage = (skill) => {
         case 'canva':
             return canva;
         case 'node js':
-            return 'https://upload.wikimedia.org/wikipedia/commons/d/d9/Node.js_logo.svg';
+            return nodeJS;
         case 'express js':
-            return 'https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png';
+            return express;
         case 'tableau':
-            return 'https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png';
+            return tableau;
+        case 'pyspark':
+            return pyspark;
+        case 'databricks':
+            return databricks;
         default:
             break;
     }
